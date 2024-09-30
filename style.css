@@ -1,0 +1,162 @@
+:root {
+        --yellow: #F5C044;
+        --green: #4CA154;
+        --principal: #52525A;
+        --black: #18181B;
+        --cream: #D4D4D8;
+        --background: #FAFAF9;
+        --background-card: #FFFFFF;
+}
+
+
+body {
+        font-family: "Sora", sans-serif;
+        background-color: var(--background);
+}
+
+.conteiner-text {
+        margin-top: 12rem;
+        margin-left: 3rem;
+}
+
+header h1 {
+        font-size: 2.25rem;
+}
+
+
+header img {
+        background-color: var(--yellow);
+        border-radius: 50%;
+        padding: 0.5rem;
+        width: 2rem;
+        object-fit: cover;
+}
+
+main p {
+        color: var(--principal);
+        font-weight: 400;
+        font-size: 1.25rem;
+}
+
+
+
+li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        /* margin-right: 1rem; */
+}
+
+li img {
+        margin-right: 0.5rem;
+}
+
+
+.container-cards {
+        position: absolute;
+        left: 45rem;
+        bottom: 17rem;
+}
+
+.conteiner-review1 {
+        background-color: var(--background-card);
+        border-radius: 1rem;
+        -webkit-box-shadow: -2px 10px 56px -26px rgba(0,0,0,0.35);
+        -moz-box-shadow: -2px 10px 56px -26px rgba(0,0,0,0.35);
+        box-shadow: -2px 10px 56px -26px rgba(0,0,0,0.35);
+        padding: 1rem;
+        width: 20rem;
+        height: 10rem;
+
+        position: absolute;
+        left: 10rem;
+        bottom: 17rem;
+}
+
+
+.google-logo {
+        width: 7rem;
+        height: 2.3rem;
+        margin-top: 1rem;
+        margin-left: 1.25rem;
+}
+
+
+.conteiner-review1 .review-star {
+        position: relative;
+        margin-left: 9.5rem;
+        margin-top: -2.2rem;
+}
+
+.conteiner-review1 h2 {
+        font-size: 1rem;
+        color: var(--black);
+        font-weight: 600;
+        /* margin-top: 1rem; */
+        margin-left: 1rem;
+}
+
+.conteiner-review1 p {
+        font-size: 0.875rem;
+        color: var(--principal);
+        font-weight: 400;
+        margin-left: 1rem;
+}
+
+.meta-logo {
+        width: 7rem;
+        height: 2.3rem;
+        margin-top: 1rem;
+        margin-left: 1.25rem;
+}
+
+.conteiner-review2 {
+        background-color: var(--background-card);
+        border-radius: 1rem;
+        -webkit-box-shadow: -2px 10px 56px -26px rgba(0,0,0,0.35);
+        -moz-box-shadow: -2px 10px 56px -26px rgba(0,0,0,0.35);
+        box-shadow: -2px 10px 56px -26px rgba(0,0,0,0.35);
+        padding: 1rem;
+        width: 20rem;
+        height: 10rem;
+
+        position: absolute;
+        right: -20rem;
+        top: -15rem;
+}
+
+
+.conteiner-review2 .review-star {
+        position: relative;
+        margin-left: 9.5rem;
+        margin-top: -2.2rem;
+}
+
+.conteiner-review2 h2 {
+        font-size: 1rem;
+        color: var(--black);
+        font-weight: 600;
+        /* margin-top: 1rem; */
+        margin-left: 1rem;
+}
+
+.conteiner-review2 p {
+        font-size: 0.875rem;
+        color: var(--principal);
+        font-weight: 400;
+        margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 640px) {
+        .conteiner-text {
+                margin-top: 10rem;
+                margin-left: 1rem;
+        }
+        .container-cards {
+                position: absolute;
+                left: 5rem;
+                bottom: -18rem;
+        }
+        
+}
